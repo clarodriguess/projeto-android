@@ -4,7 +4,7 @@
 
 @font-face {
     font-family:'android';
-    src: url('/estilo/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -102,7 +102,7 @@ main p{
 main strong{
     color: var(--cor5);
 }
-main h1{
+main>article>h1{
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
